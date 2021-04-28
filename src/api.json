@@ -1,0 +1,76 @@
+post 15.237.2.25/api/v1/register_by_email
+{
+"user" : { 
+"provider": "email",
+"name" : "",
+"username" : "",
+"password" : "",
+"password_confirmation" : "",
+"email" : ""},
+"device": {"uid":"3", "token": "i"}
+}
+
+post 15.237.2.25/api/v1/send_verification_code
+{"email": ""}
+
+
+post 15.237.2.25/api/v1/verify_email
+{"email" : ",
+"device": {
+"uid": "1",
+"token": "d"
+}}
+
+post 15.237.2.25/api/v1/login_by_email
+{
+"user" : { 
+"password" : "",
+"email" : "”},
+"device": {"uid":"3", "token": "i"}
+}
+
+post http://15.237.2.25/api/v1/posts/create
+{
+"post" : {
+"body" : "Test creation with price",
+"emotion" : 2
+},
+"photos" : [
+{
+"img_url" : "url 1"
+},
+{
+"img_url" : "url 2"
+}
+],
+"hashtags" : [
+{
+"name" : "هاشتاق"
+},
+{
+"name" : "mis"
+}
+]
+}
+
+
+delete http://15.237.2.25/api/v1/posts/:post_id
+
+http://15.237.2.25/api/v1/posts/:post_id/like-unlike
+
+
+get http://15.237.2.25/api/v1//follow_suggestions
+
+
+post http://15.237.2.25/api/v1/user/follow-unfollow
+{
+"follow" : {
+"followee_id" : 1
+}
+}
+
+
+get http://15.237.2.25/api/v1/hashtags/popular
+
+
+get http://15.237.2.25/api/v1/trending_stocks

@@ -1,0 +1,22 @@
+.search {
+  position: relative;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  border: 1px solid #eee;
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search__icon {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.search .MuiInputBase-root {
+  width: 100%;
+  font-family: "Droid-Naskh-Regular";
+}

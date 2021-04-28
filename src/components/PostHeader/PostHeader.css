@@ -1,0 +1,21 @@
+.post__headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__headerInfo {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+}
+
+.post__headerCreatedAt {
+  padding-top: 10px;
+}
+
+.post__headerCreatedAt p {
+  font-size: 12.8px;
+  font-family: "STC-Regular";
+  color: #b3b6b6;
+}

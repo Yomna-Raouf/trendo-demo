@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "STC-BOLD";
+  src: url(./assets/fonts/STC\ Bold.ttf) format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "STC-Regular";
+  src: url(./assets/fonts/STC\ Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Droid-Naskh-Regular";
+  src: url(./assets/fonts/Droid-Naskh-Regular.ttf) format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Droid-Naskh-Regular";
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  text-overflow: clip;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
 }

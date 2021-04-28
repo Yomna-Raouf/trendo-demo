@@ -1,0 +1,47 @@
+.FollowSuggestionsList {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 2.8rem;
+}
+
+.FollowSuggestionsList__container {
+  position: fixed;
+  width: 17%;
+  height: 73%;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #eee;
+}
+
+.FollowSuggestionsList__Header {
+  font-family: "stc-BOLD";
+  height: 4rem;
+  padding: 0 1.75rem;
+  border-bottom: 0.1rem solid #eee;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.FollowSuggestionsList__Header p {
+  font-size: 1.2rem;
+  color: #14171a;
+}
+
+.FollowSuggestionsList__list {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  height: calc(100% - 8rem);
+  overflow: hidden;
+}

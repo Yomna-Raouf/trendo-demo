@@ -1,0 +1,5 @@
+.AddPostButton.MuiButton-outlined {
+  color: #111c4e !important;
+  border: 1px solid rgba(17, 28, 78, 0.5) !important;
+  font-family: "STC-BOLD";
+}
